@@ -1,0 +1,13 @@
+{
+    "calculation_error": "'calculation_error' represents that the operands and operators of the formula in the first wrong step are exactly correct, and only the result is calculated incorrectly.",
+    "counting_error": "'counting_error' represents only an error in the counting process, such as counting Saturday and Sunday as 3 days instead of 2 days, which may cause an error in the operand of the formula in the first wrong step.",
+    "question_misinterpretation": "'question_misinterpretation' represents that the [Question] was misunderstood, such as ignoring specific constraints or descriptions in the question, or not understanding specific concepts in the question, which led to the first wrong step.",
+    "referencing_context_value_error": "'referencing_context_value_error' represents only an error in the operand of the formula in the first wrong step when referencing the number in the [Question].",
+    "referencing_previous_step_value_error": "'referencing_previous_step_value_error' represents only an error in the operand of the formula in the first wrong step when referencing the result of its previous step.",
+    "unit_conversion_error": "'unit_conversion_error' represents the incorrect use of unit conversion, for example, there are 12 inches in a foot, 1000 grams in a kilogram, 60 minutes in an hour and 60 seconds in a minute, which may cause an error in the operand of the formula in the first wrong step.",
+    "operator_error": "'operator_error' represents only an error in the operator of the formula in the first wrong step.",
+    "missing_step": "'missing_step' represents the absence of a necessary reasoning step, and if this absent step is added, the entire reasoning will become correct.",
+    "confusing_formula_error": "'confusing_formula_error' represents the incorrect use of formula, such as confusing the rectangular perimeter formula with the rectangular area formula, the square area formula with the square perimeter formula, and the cuboid volume formula with the cuboid surface area formula, which may cause errors in the operands and operators of the formula in the first wrong step.",
+    "confusing_concept_error": "'confusing_concept_error' represents only an error that two similar but actually different concepts are mistakenly confused in the **solution**, such as using the number of all objects when the number of remaining objects should be used, or using total revenue when profit should be used.",
+    "adding_irrelevant_information": "'adding_irrelevant_information' represents that the first wrong step adds some information that is not included in the [Question] statement, which affects the final result."
+}
