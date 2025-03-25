@@ -135,10 +135,10 @@ Thanks for the open source code of [LLaMA-Factory](https://github.com/hiyouga/LL
 Please cite the paper if you refer to our model, code, data or paper from MetaMath.
 
 ```
-@article{lemma,
+@article{LEMMA,
   title={LEMMA: Learning from Errors for MatheMatical Advancement in LLMs},
   author={Zhuoshi Pan, Yu Li, Honglin Lin, Qizhi Pei, Zinan Tang, Wei Wu, Chenlin Ming, H. Vicky Zhao, Conghui He, Lijun Wu},
-  journal={Arxiv},
+  journal={arXiv preprint arXiv:2503.17439},
   year={2025}
 }
 ```
