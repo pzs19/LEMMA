@@ -132,7 +132,7 @@ Thanks for the open source code of [LLaMA-Factory](https://github.com/hiyouga/LL
 
 ## Citation
 
-Please cite the paper if you refer to our model, code, data or paper from MetaMath.
+Please cite the paper if you refer to our model, code, data or paper.
 
 ```
 @article{LEMMA,
