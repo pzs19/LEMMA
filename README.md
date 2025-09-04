@@ -2,13 +2,37 @@
 <h1>✍️ LEMMA: Learning from Errors for MatheMatical Advancement in LLMs</h1>
 </div>
 
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](CODE_LICENSE)
-[![Model Weight License](https://img.shields.io/badge/Model%20Weights%20License-LLaMA3-yellow)](Model/LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
-
 <p align="center">
-🤗 <a href="https://huggingface.co/panzs19/LEMMA-LLAMA-3-8B" target="_blank">HF Model</a> • 💾 <a href="https://huggingface.co/panzs19/LEMMA" target="_blank">HF Dataset</a> • 📃 <a href="" target="_blank">Paper</a><br>
+  <a href="https://github.com/pzs19/LEMMA">
+    <img
+      src="https://img.shields.io/badge/LEMMA-Gtihub-blue?logo=github"
+      alt="GitHub Repo"
+    />
+  </a>
+  <a href="https://arxiv.org/pdf/2503.17439">
+    <img
+      src="https://img.shields.io/badge/LEMMA-Arxiv-red?logo=arxiv&logoColor=red"
+      alt="Paper on arXiv"
+    />
+  </a>
+  <a href="https://huggingface.co/collections/panzs19/lemma-68620ced6bedc62fff843e43">
+    <img
+      src="https://img.shields.io/badge/LEMMA-Huggingface-yellow?logo=huggingface&logoColor=yellow"
+      alt="OpenCompass Discord"
+    />
+  </a>
+    <a href="https://github.com/pzs19/LEMMA/tree/main?tab=readme-ov-file#-quick-start">
+    <img 
+        src="https://img.shields.io/badge/LEMMA-Quick_Start-purple?logo=rocket&logoColor=purple" 
+        alt="Quick Start"
+    />
+    </a>
 </p>
+</div>
+
+<!-- <p align="center">
+🤗 <a href="https://huggingface.co/panzs19/LEMMA-LLAMA-3-8B" target="_blank">HF Model</a> • 💾 <a href="https://huggingface.co/panzs19/LEMMA" target="_blank">HF Dataset</a> • 📃 <a href="" target="_blank">Paper</a><br>
+</p> -->
 
 <p align="center" width="100%">
 <a ><img src="./asset/lemma_small.png" alt="MetaMath" style="width: 60%; min-width: 300px; display: block; margin: auto;"></a>
@@ -18,6 +42,7 @@
 | ----- |------| ---- |------|-------| ----- |
 | LEMMA-LLAMA-3-8B | 🤗 <a href="https://huggingface.co/panzs19/LEMMA-LLAMA-3-8B" target="_blank">HF Link</a> |  📃 <a href="" target="_blank">[LEMMA]</a>| **79.2**  |  **38.3**	| <a href="https://www.llama.com/llama3/license/" target="_blank">Llama 3  </a> |
 | LEMMA-LLAMA-3-70B | 🤗 <a href="https://huggingface.co/panzs19/LEMMA-LLAMA-3-70B" target="_blank">HF Link</a> |  📃 <a href="" target="_blank">[LEMMA]</a>| **91.5**  |  **51.8** | <a href="https://www.llama.com/llama3/license/" target="_blank">Llama 3 </a> |
+
 
 ## 📝 Key Takeaways
 💡 **Systematic analysis on error types**: Categorizes common model-generated mathematical reasoning errors, revealing consistent error patterns across models and guiding targeted improvements.
